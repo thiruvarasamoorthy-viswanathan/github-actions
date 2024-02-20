@@ -7,7 +7,7 @@ jobs:
         - name: Run a one-line script
           run: echo Hello, world!
   second-job:
-    runs-on: aws-cli
+    runs-on: macos-13
     steps:
         - name: Run a one-line script
           run: echo Hello, world!       
